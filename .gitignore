@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.Readme2.txt
 # testing
 /coverage
 
@@ -12,7 +12,7 @@
 /build
 
 # misc
-.Readme2.md
+
 .DS_Store
 .env.local
 .env.development.local
