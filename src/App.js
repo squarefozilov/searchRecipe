@@ -7,7 +7,7 @@ const API_KEY = '983e1f6038b33c4c960f5ead47996eab';
 class App extends Component {
 
 state = {
-  recipes: []
+  recipes: ['pasta']
 }
   getRecipe = async (e) =>{
     const recipe =  e.target.elements.recipeName.value==="" ? "chicken" : e.target.elements.recipeName.value;
